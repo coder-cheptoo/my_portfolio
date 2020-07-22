@@ -18,7 +18,8 @@ function toggleMenu() {
         menuNav.classList.add('show');
         menuBranding.classList.add('show');
         navItems.forEach(item => item.classList.add('show'));
-
+        
+        //menu state
         showMenu = true;
     } else {
         menuBtn.classList.remove('close');
